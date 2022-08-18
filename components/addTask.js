@@ -57,11 +57,11 @@ export const AgregarTarea = (evento) => {
           taskContent.appendChild(check);
           taskContent.appendChild(titleTask);
     // task.innerHTML = content;
-    const ElementoFecha = document.createElement('span');
-          ElementoFecha.innerHTML = FechaStd;
+    /* const ElementoFecha = document.createElement('span');
+          ElementoFecha.innerHTML = FechaStd; */
     
           task.appendChild(taskContent);
-          task.appendChild(ElementoFecha);
+         // task.appendChild(ElementoFecha);
           task.appendChild(deleteIcon(id));
     return task;
   };
